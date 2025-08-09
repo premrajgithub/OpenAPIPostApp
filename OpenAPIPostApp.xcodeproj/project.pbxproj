@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		69DDF7D52E4726FB006EB14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69DDF7B62E4726F9006EB14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DDF7BD2E4726F9006EB14F;
+			remoteInfo = OpenAPIPostApp;
+		};
+		69DDF7DF2E4726FB006EB14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69DDF7B62E4726F9006EB14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DDF7BD2E4726F9006EB14F;
+			remoteInfo = OpenAPIPostApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69DDF7BE2E4726F9006EB14F /* OpenAPIPostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAPIPostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DDF7D42E4726FB006EB14F /* OpenAPIPostAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenAPIPostAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DDF7DE2E4726FB006EB14F /* OpenAPIPostAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenAPIPostAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		69DDF7E62E4726FB006EB14F /* Exceptions for "OpenAPIPostApp" folder in "OpenAPIPostApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 69DDF7BD2E4726F9006EB14F /* OpenAPIPostApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		69DDF7C02E4726F9006EB14F /* OpenAPIPostApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				69DDF7E62E4726FB006EB14F /* Exceptions for "OpenAPIPostApp" folder in "OpenAPIPostApp" target */,
+			);
+			path = OpenAPIPostApp;
+			sourceTree = "<group>";
+		};
+		69DDF7D72E4726FB006EB14F /* OpenAPIPostAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenAPIPostAppTests;
+			sourceTree = "<group>";
+		};
+		69DDF7E12E4726FB006EB14F /* OpenAPIPostAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenAPIPostAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69DDF7BB2E4726F9006EB14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DDF7D12E4726FB006EB14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DDF7DB2E4726FB006EB14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69DDF7B52E4726F9006EB14F = {
+			isa = PBXGroup;
+			children = (
+				69DDF7C02E4726F9006EB14F /* OpenAPIPostApp */,
+				69DDF7D72E4726FB006EB14F /* OpenAPIPostAppTests */,
+				69DDF7E12E4726FB006EB14F /* OpenAPIPostAppUITests */,
+				69DDF7BF2E4726F9006EB14F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69DDF7BF2E4726F9006EB14F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69DDF7BE2E4726F9006EB14F /* OpenAPIPostApp.app */,
+				69DDF7D42E4726FB006EB14F /* OpenAPIPostAppTests.xctest */,
+				69DDF7DE2E4726FB006EB14F /* OpenAPIPostAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69DDF7BD2E4726F9006EB14F /* OpenAPIPostApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DDF7E72E4726FB006EB14F /* Build configuration list for PBXNativeTarget "OpenAPIPostApp" */;
+			buildPhases = (
+				69DDF7BA2E4726F9006EB14F /* Sources */,
+				69DDF7BB2E4726F9006EB14F /* Frameworks */,
+				69DDF7BC2E4726F9006EB14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				69DDF7C02E4726F9006EB14F /* OpenAPIPostApp */,
+			);
+			name = OpenAPIPostApp;
+			packageProductDependencies = (
+			);
+			productName = OpenAPIPostApp;
+			productReference = 69DDF7BE2E4726F9006EB14F /* OpenAPIPostApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69DDF7D32E4726FB006EB14F /* OpenAPIPostAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DDF7EC2E4726FB006EB14F /* Build configuration list for PBXNativeTarget "OpenAPIPostAppTests" */;
+			buildPhases = (
+				69DDF7D02E4726FB006EB14F /* Sources */,
+				69DDF7D12E4726FB006EB14F /* Frameworks */,
+				69DDF7D22E4726FB006EB14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DDF7D62E4726FB006EB14F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				69DDF7D72E4726FB006EB14F /* OpenAPIPostAppTests */,
+			);
+			name = OpenAPIPostAppTests;
+			packageProductDependencies = (
+			);
+			productName = OpenAPIPostAppTests;
+			productReference = 69DDF7D42E4726FB006EB14F /* OpenAPIPostAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69DDF7DD2E4726FB006EB14F /* OpenAPIPostAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DDF7EF2E4726FB006EB14F /* Build configuration list for PBXNativeTarget "OpenAPIPostAppUITests" */;
+			buildPhases = (
+				69DDF7DA2E4726FB006EB14F /* Sources */,
+				69DDF7DB2E4726FB006EB14F /* Frameworks */,
+				69DDF7DC2E4726FB006EB14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DDF7E02E4726FB006EB14F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				69DDF7E12E4726FB006EB14F /* OpenAPIPostAppUITests */,
+			);
+			name = OpenAPIPostAppUITests;
+			packageProductDependencies = (
+			);
+			productName = OpenAPIPostAppUITests;
+			productReference = 69DDF7DE2E4726FB006EB14F /* OpenAPIPostAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69DDF7B62E4726F9006EB14F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					69DDF7BD2E4726F9006EB14F = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					69DDF7D32E4726FB006EB14F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 69DDF7BD2E4726F9006EB14F;
+					};
+					69DDF7DD2E4726FB006EB14F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 69DDF7BD2E4726F9006EB14F;
+					};
+				};
+			};
+			buildConfigurationList = 69DDF7B92E4726F9006EB14F /* Build configuration list for PBXProject "OpenAPIPostApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69DDF7B52E4726F9006EB14F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 69DDF7BF2E4726F9006EB14F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69DDF7BD2E4726F9006EB14F /* OpenAPIPostApp */,
+				69DDF7D32E4726FB006EB14F /* OpenAPIPostAppTests */,
+				69DDF7DD2E4726FB006EB14F /* OpenAPIPostAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69DDF7BC2E4726F9006EB14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DDF7D22E4726FB006EB14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DDF7DC2E4726FB006EB14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69DDF7BA2E4726F9006EB14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DDF7D02E4726FB006EB14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DDF7DA2E4726FB006EB14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69DDF7D62E4726FB006EB14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69DDF7BD2E4726F9006EB14F /* OpenAPIPostApp */;
+			targetProxy = 69DDF7D52E4726FB006EB14F /* PBXContainerItemProxy */;
+		};
+		69DDF7E02E4726FB006EB14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69DDF7BD2E4726F9006EB14F /* OpenAPIPostApp */;
+			targetProxy = 69DDF7DF2E4726FB006EB14F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		69DDF7E82E4726FB006EB14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLX5SE3HM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenAPIPostApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Amigos.OpenAPIPostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69DDF7E92E4726FB006EB14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLX5SE3HM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenAPIPostApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Amigos.OpenAPIPostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69DDF7EA2E4726FB006EB14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MLX5SE3HM3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69DDF7EB2E4726FB006EB14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MLX5SE3HM3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69DDF7ED2E4726FB006EB14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLX5SE3HM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Amigos.OpenAPIPostAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenAPIPostApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenAPIPostApp";
+			};
+			name = Debug;
+		};
+		69DDF7EE2E4726FB006EB14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLX5SE3HM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Amigos.OpenAPIPostAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenAPIPostApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenAPIPostApp";
+			};
+			name = Release;
+		};
+		69DDF7F02E4726FB006EB14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLX5SE3HM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Amigos.OpenAPIPostAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenAPIPostApp;
+			};
+			name = Debug;
+		};
+		69DDF7F12E4726FB006EB14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLX5SE3HM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Amigos.OpenAPIPostAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenAPIPostApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69DDF7B92E4726F9006EB14F /* Build configuration list for PBXProject "OpenAPIPostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DDF7EA2E4726FB006EB14F /* Debug */,
+				69DDF7EB2E4726FB006EB14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DDF7E72E4726FB006EB14F /* Build configuration list for PBXNativeTarget "OpenAPIPostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DDF7E82E4726FB006EB14F /* Debug */,
+				69DDF7E92E4726FB006EB14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DDF7EC2E4726FB006EB14F /* Build configuration list for PBXNativeTarget "OpenAPIPostAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DDF7ED2E4726FB006EB14F /* Debug */,
+				69DDF7EE2E4726FB006EB14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DDF7EF2E4726FB006EB14F /* Build configuration list for PBXNativeTarget "OpenAPIPostAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DDF7F02E4726FB006EB14F /* Debug */,
+				69DDF7F12E4726FB006EB14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69DDF7B62E4726F9006EB14F /* Project object */;
+}
